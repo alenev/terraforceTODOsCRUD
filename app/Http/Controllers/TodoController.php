@@ -23,6 +23,9 @@ class TodoController extends Controller
     public function index()
     {
         $this->user = Auth::user();
+        if(!$this->user){
+            return redirect()->to('login');  
+        }
         $this->todos = $this->toDoRepository->all($this->user->id);
         return view('todo.list', ['todos' => $this->todos]);
     }
