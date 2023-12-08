@@ -70,7 +70,7 @@
     <div class="flex-center position-ref full-height">
         <div class="content">
             <div class="title m-b-md">
-                My tutorial App
+                TODOs Laravel CRUD
             </div>
 
             <div class="links">

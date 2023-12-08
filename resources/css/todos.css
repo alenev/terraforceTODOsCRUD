@@ -1,0 +1,17 @@
+.container.todos .float-right a {
+display: block;
+float: right;
+}
+.container.todos div.action_btn div {
+display: inline-block;
+margin-right: 5px;
+}
+.container.todos .todos_list td {
+    vertical-align: middle;
+}
+.container.todos .todos_list .todo_id {
+    text-align: center;
+}
+.container.todos .form-group {
+    margin-bottom: 10px;
+}
